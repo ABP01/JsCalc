@@ -1,0 +1,10 @@
+.calculator{
+    display: grid;
+    grid-template-rows: minmax(80px, auto) repeat(5,60px);
+    grid-template-columns: repeat(4, 80px);
+    justify-content: center;
+    background-color: hsl(220, 6%, 10%);
+    padding: 1.4rem;
+    border-radius: 12px;
+    gap: 0.7rem;
+}
