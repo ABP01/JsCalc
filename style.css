@@ -24,3 +24,20 @@
     background-color: hsl(230, 6%, 30%);
 }
 
+.span-2{
+    grid-column: span 2;
+}
+
+.calculator > .output{
+    font-size: 2rem;
+    background-color: inherit;
+    color: white;
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    word-break: break-all;
+    border-radius: inherit;
+}
+
